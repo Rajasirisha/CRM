@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crmlogin</title>
+    <link rel="stylesheet" href="crmstyle.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='crmstylesheet'>   
+
+</head>
+    <body>
+        <div class="login-form">
+            <img  src="krzlogo.png" class="krzlogo" /> 
+            <h1>Welcome Back !</h1>
+            <form action="#" >
+            <span>Email</span>
+                <span style="color: red;">&#42</span>
+                <input type="text" name="Email" placeholder="Enter Your Email" required>  
+                <!-- <div class="dropdown">
+                    <div class="dropdown-select">
+                        <span>Select Role</span>
+                        <span class="icon">&#09660</span></div>
+                </div> -->
+    <div> <label for="Select Role">Select Role</label> 
+         <select name="Selact Role" id="Select Role"> 
+        <option value="Manager">Manager</option> 
+        <option value="Employee">Employee</option> 
+        <option value="Freelancer">Freelancer</option>      
+         </select>
+</div>
+<br>
+                <span>Password</span>
+                <span style="color: red;">&#42</span>
+                <input type="password" name="Password" placeholder="********" required>
+             
+                 <a href="#">Forgot password?</a>
+              
+                <button type="Submit" class="login-form button">Login</button>
+                    
+                <img class="side" src="side.jpg" alt="side"/>
+            
+                 
+            </form>
+        </div>
+    </body>
+</html>
